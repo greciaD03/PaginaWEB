@@ -121,7 +121,7 @@ class Post
         return $this;
     }
 
-    public function getPost(): ?Post
+    /*public function getPost(): ?Post
     {
         return $this->post;
     }
@@ -131,7 +131,7 @@ class Post
         $this->post = $post;
 
         return $this;
-    }
+    }*/
 
     /**
      * @return Collection<int, Interaction>
