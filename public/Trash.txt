@@ -1,0 +1,43 @@
+PaginaWEB
+"Base inicial de una pagina WEB atraves de Symfony (Uso de Webpack) para configurar y almacenar datos: Validar, Comprobar, Remplazar y Concidir en BASE a expresiones regulares."
+
+.link()
+https://github.com/Diiego1500/frikyland/tree/main/src/Controller
+
+.env()
+DATABASE_URL="mysql://root:@127.0.0.1:3308/paginaweb_data?serverVersion=10.11.2-MariaDB&charset=utf8mb4"
+
+.user()
+grecia.deyanira.mtz2003@gmail.com
+["ROLE_USER"]
+123
+MiFoto.jpg
+/¡Hola Mundo!
+
+.post()
+✅|1er. Post
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua".
+https://www.url.com
+
+✅|2do. Post
+"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat".
+https://www.local.com
+
+
+
+
+.templates/post/index.html.twig()
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>Hello {{ controller_name }}! ✅</h1>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href="{{ 'C:/xampp/htdocs/WEB/PaginaWEB/src/Controller/PostController.php'|file_link(0) }}">src/Controller/PostController.php</a></code></li>
+        <li>Your template at <code><a href="{{ 'C:/xampp/htdocs/WEB/PaginaWEB/templates/post/index.html.twig'|file_link(0) }}">templates/post/index.html.twig</a></code></li>
+    </ul>
+</div>
